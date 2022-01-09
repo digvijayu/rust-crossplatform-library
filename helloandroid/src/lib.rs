@@ -19,7 +19,7 @@ pub extern "C" fn invokeCallbackViaJNA(callback: Callback) {
 
 #[no_mangle]
 #[allow(non_snake_case)]
-pub extern "C" fn Java_com_roxorgaming_rustspike_android_MainActivity_invokeCallbackViaJNI(
+pub extern "C" fn Java_com_rc_rustspike_myapplication_MainActivity_invokeCallbackViaJNI(
     env: JNIEnv,
     _class: JClass,
     callback: JObject
